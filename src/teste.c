@@ -4,16 +4,17 @@
 int main(){
     system("clear");
     int valor;
-    int qtd= 0;
+    int qtd=0;
     int i;
-    int vetor[qtd];
+    int vetor[100];
     printf("digite um valor\n");
     scanf("%d" ,&valor);
-    while(valor != 99){
+    while(valor >= 1 && valor <= 99 && qtd < 100){
         vetor[qtd] = valor;
         qtd++;
     printf("digite outro valor\n");
     scanf("%d" ,&valor);
+
     }
     
     printf("\n======== Valores digitados pelo usuario ===========\n");
@@ -21,4 +22,6 @@ int main(){
         printf("%d | ",vetor[i]);
     }
     printf("\n");
+
+    return 0;
 }
