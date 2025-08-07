@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    system("cleare");
+    system("clear");
     int valor;
     int qtd=0;
     int i;
@@ -14,6 +14,7 @@ int main(){
         qtd++;
     printf("digite outro valor\n");
     scanf("%d" ,&valor);
-    
+
     }
+    
 }
