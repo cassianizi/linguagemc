@@ -6,10 +6,10 @@ int main(){
     int valor;
     int qtd=0;
     int i;
-    int vetor[100];
+    int vetor[99];
     printf("digite um valor\n");
     scanf("%d" ,&valor);
-    while(valor >= 1 && valor <= 99 && qtd < 100){
+    while(valor >= 1 && valor <= 98 && qtd < 99){
         vetor[qtd] = valor;
         qtd++;
     printf("digite outro valor\n");
