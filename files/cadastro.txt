@@ -1,0 +1,3 @@
+Nome: maria
+Email: csi@izi
+Idade: 66
